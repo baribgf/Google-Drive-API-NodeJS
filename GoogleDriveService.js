@@ -9,7 +9,7 @@ const path = require('path');
 class GoogleDriveService {
     tokenPath = null
     credentialsPath = null
-    constructor(tokenPath, credentialsPath) {
+    constructor(tokenPath, credentialsPath = null) {
         this.tokenPath = tokenPath
         this.credentialsPath = credentialsPath
     }
